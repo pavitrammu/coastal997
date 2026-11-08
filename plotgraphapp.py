@@ -8,11 +8,13 @@ from streamlit_js_eval import streamlit_js_eval
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import joblib
+from pathlib import Path
 
 # --- 1. SETUP & PATHS ---
 st.set_page_config(page_title="Coastal Simulation Analysis", page_icon="🌊", layout="wide")
 
-base_dir = r"C:\Kumar_Files_C\Sandengine_seagrass_RA_sandpit\Dashboard and results\dashboard_files"
+base_dir = Path(__file__).parent
+base_dir = os.path.join(base_dir, "dashboard_files")
 
 scenario_map = {
     'Without Sand Engine and Seagrass':   os.path.join(base_dir, "Without_Sandengine_and_Seagrass"),

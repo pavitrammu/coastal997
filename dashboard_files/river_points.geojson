@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "river_points",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "distance": 0.0, "angle": 22.714412353166299, "Name": "River Point 1" }, "geometry": { "type": "Point", "coordinates": [ -3.044747169379996, 54.174520962951867 ] } },
+{ "type": "Feature", "properties": { "id": 1, "distance": 0.01, "angle": 10.124671655406564, "Name": "River Point 2" }, "geometry": { "type": "Point", "coordinates": [ -3.041016468554976, 54.183783882504081 ] } },
+{ "type": "Feature", "properties": { "id": 1, "distance": 0.02, "angle": 17.650124219927267, "Name": "River Point 3" }, "geometry": { "type": "Point", "coordinates": [ -3.03997646166006, 54.193682202871578 ] } },
+{ "type": "Feature", "properties": { "id": 1, "distance": 0.03, "angle": 62.241459398920227, "Name": "River Point 4" }, "geometry": { "type": "Point", "coordinates": [ -3.034038422542849, 54.201060128564599 ] } },
+{ "type": "Feature", "properties": { "id": 1, "distance": 0.04, "angle": 34.508522987695237, "Name": "River Point 5" }, "geometry": { "type": "Point", "coordinates": [ -3.027292301391716, 54.208250261829697 ] } },
+{ "type": "Feature", "properties": { "id": 1, "distance": 0.05, "angle": 328.67130713222463, "Name": "River Point 6" }, "geometry": { "type": "Point", "coordinates": [ -3.030263476464951, 54.217522685881107 ] } },
+{ "type": "Feature", "properties": { "id": 1, "distance": 0.06, "angle": 289.09349200045318, "Name": "River Point 7" }, "geometry": { "type": "Point", "coordinates": [ -3.038686803995768, 54.222574582709775 ] } }
+]
+}

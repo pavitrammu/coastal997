@@ -65,7 +65,7 @@ if not st.session_state.show_controls:
 
     col1,  col2 = st.sidebar.columns([1, 1])
     with col1:
-        st.image(os.path.join(base_dir, "dashboard", 'logo_MMU.png'),width=200 ,link='https://www.mmu.ac.uk/')
+        st.image(os.path.join(base_dir, "dashboard_files", 'logo_MMU.png'),width=200 ,link='https://www.mmu.ac.uk/')
     with col2:
         st.image(os.path.join(base_dir, 'logo_Liverpool.svg'),width=200 ,link='https://www.liverpool.ac.uk/')
 
